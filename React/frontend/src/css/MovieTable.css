@@ -1,0 +1,18 @@
+.movie-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 1rem;
+}
+
+.movie-table th,
+.movie-table td {
+    border: 6px solid #817e7e;
+    padding: 10px;
+    text-align:center;
+}
+
+.movie-table th {
+    background-color: #f4f4f4;
+    color: black;
+}

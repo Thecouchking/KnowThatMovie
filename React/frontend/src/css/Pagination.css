@@ -1,0 +1,15 @@
+.pagination{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    gap: 1em;
+}
+.pagination button{
+    color: beige;
+    justify-content: center;
+    align-items: center;
+}
+
+.pagination button.active{
+    background-color: blue;
+}
