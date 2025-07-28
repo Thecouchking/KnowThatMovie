@@ -1,6 +1,6 @@
 //provide helper function so i can use states on different pages
 import { createContext,useState,useContext,useEffect } from "react";
-
+//
 const MovieContext = createContext()
 
 export const useMovieContext = () => useContext(MovieContext)
